@@ -120,3 +120,21 @@ button:hover {
 .contact-page main {
     flex: 1; /* Pushes footer to the bottom */
 }
+
+
+@keyframes slideIn {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.header-title {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white; /* Typing effect */
+    animation: slideIn 2s steps(12, end) forwards;
+}
