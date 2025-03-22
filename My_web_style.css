@@ -108,3 +108,15 @@ button:hover {
     font-size: 18px;
     z-index: 1000;
 }
+
+
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contact-page main {
+    flex: 1; /* Pushes footer to the bottom */
+}
