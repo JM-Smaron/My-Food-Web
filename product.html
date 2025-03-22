@@ -25,22 +25,30 @@
                 <div class="grid-item">
                     <img src="Pic/pasta.jpg" alt="Food 1" class="food-image">
                     <p>Delicious Pasta - 250 TK</p>
-                    <button onclick="addToCart(250)">Add to Cart</button>
+                    <button onclick="updateCart('pasta', 250)">+</button>
+                    <span id="pasta-count">0</span>
+                    <button onclick="updateCart('pasta', -250)">-</button>
                 </div>
                 <div class="grid-item">
                     <img src="Pic/burger.jpg" alt="Food 2" class="food-image">
                     <p>Spicy Burger - 300 TK</p>
-                    <button onclick="addToCart(300)">Add to Cart</button>
+                    <button onclick="updateCart('burger', 300)">+</button>
+                    <span id="burger-count">0</span>
+                    <button onclick="updateCart('burger', -300)">-</button>
                 </div>
                 <div class="grid-item">
                     <img src="Pic/grilled chicken.jpg" alt="Food 3" class="food-image">
                     <p>Grilled Chicken - 450 TK</p>
-                    <button onclick="addToCart(450)">Add to Cart</button>
+                    <button onclick="updateCart('chicken', 450)">+</button>
+                    <span id="chicken-count">0</span>
+                    <button onclick="updateCart('chicken', -450)">-</button>
                 </div>
                 <div class="grid-item">
                     <img src="Pic/salad.jpg" alt="Food 4" class="food-image">
                     <p>Fresh Salad - 400 TK</p>
-                    <button onclick="addToCart(400)">Add to Cart</button>
+                    <button onclick="updateCart('salad', 400)">+</button>
+                    <span id="salad-count">0</span>
+                    <button onclick="updateCart('salad', -400)">-</button>
                 </div>
             </div>
         </section>
