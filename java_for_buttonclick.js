@@ -7,6 +7,12 @@ function submitForm() {
 }
 
 
+// 
+// Name: J. M. Sadik-Ul Islam Smaron
+// ID: 2220221
+//
+
+
 let totalAmount = 0;
 let cartItems = { pasta: 0, burger: 0, chicken: 0, salad: 0 };
 
@@ -25,7 +31,7 @@ function updateCart(item, price) {
                   (cartItems["chicken"] * 450) + 
                   (cartItems["salad"] * 400);
 
-    // Update UI
+                  
     document.getElementById(item + "-count").innerText = cartItems[item];
     document.getElementById("totalAmount").innerText = totalAmount;
 }
