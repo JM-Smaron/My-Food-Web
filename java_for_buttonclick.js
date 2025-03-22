@@ -33,3 +33,16 @@ function updateCart(item, price) {
 function showTotal() {
     alert("Total Amount: " + totalAmount + " TK");
 }
+
+
+function showTotal() {
+    let popup = document.getElementById("popup");
+    let popupText = document.getElementById("popup-text");
+
+    popupText.innerText = "Total Amount: " + totalAmount + " TK";
+    popup.style.display = "block";
+
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 4000); // Pop-up disappears after 4 seconds
+}
