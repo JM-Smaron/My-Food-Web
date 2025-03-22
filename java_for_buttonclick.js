@@ -29,3 +29,7 @@ function updateCart(item, price) {
     document.getElementById(item + "-count").innerText = cartItems[item];
     document.getElementById("totalAmount").innerText = totalAmount;
 }
+
+function showTotal() {
+    alert("Total Amount: " + totalAmount + " TK");
+}
